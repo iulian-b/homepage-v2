@@ -1,0 +1,104 @@
+<!------------------------------------->
+<!--  CS50/search                    -->
+<!--  iulian-b (iulian@firemail.cc)  -->
+<!------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/clock.js" type="text/javascript"></script>
+        <script src="js/weather.js" type="text/javascript"></script>
+        <!-- <link href="https://www.nerdfonts.com/assets/css/combo.css" rel="stylesheet" type="text/css"> -->
+    </head>
+    <body>
+        <div class="bg-image"></div>
+        <div class="bg-gif"></div>
+
+        <!-- <div class="pages"> -->
+            <!-- <a id="image-search" href="imgsearch.html">󰥷 Image</a> -->
+            <!-- <a id="advanced-search" href="advsearch.html"> Advanced</a> -->
+        <!-- </div> -->
+
+        <div id="container">
+            <!-- Clock -->
+            <div id="clock">
+                <span id="time"></span>
+                <span id="meridian"></span>
+            </div>
+            <div id="header">
+                <h3 id="searchbox"><span class="white"></span></h3>
+                <!-- Search -->
+                <form action="https://google.com/search">
+                    <input type="text" name="q" autofocus="autofocus">
+                    <input type="submit" value="SEARCH">
+                </form>
+            </div>
+
+            <div id="links">
+                <div class="linksbox">
+                    <h3><span class="white">[</span><span class="red">&thinsp; SHOPS</span> <span class="white">]</span></h3>
+                    <!-- Shops -->
+                    <a class="white" target="blank" href="https://www.amazon.it">├ Amazon</a>
+                    <a class="white" target="blank" href="https://www.emag.ro">├ eMAG</a>
+                    <a class="white" target="blank" href="https://www.aliexpress.com">├ AliExpress</a>
+                    <a class="white" target="blank" href="https://www.ebay.com">├ Ebay</a>
+                    <a class="white" target="blank" href="https://www.olx.ro">├ OLX</a>
+                    <a class="white" target="blank" href="https://www.autovit.ro">└ Autovit</a>
+                </div>
+
+                <div class="linksbox">
+                    <h3><span class="white">[</span><span class="yellow">󰖟&thinsp; PLACES</span><span class="white">]</span></h3>
+                    <!-- Places -->
+                    <a class="white" target="blank" href="https://www.misn-b.spiruharet.ro/tehnologii-moderne-in-ingineria-sistemelor-informatice/anunturi">├ USH</a>
+                    <a class="white" target="blank" href="https://ush.blackboard.com">├ Blackboard</a>
+                    <a class="white" target="blank" href="https://www.github.com">├ Github</a>
+                    <a class="white" target="blank" href="https://www.formula1.com/en/latest.html">├ Formula 1</a>
+                    <a class="white" target="blank" href="https://www.cs.rin.ru/forum/index.php">├ CS.RIN.RU</a>
+                    <a class="white" target="blank" onclick="alert('Removed for privacy');" href="">├ E-mail</a>
+                    <a class="white" target="blank" href="https://jippy.bandcamp.com/music">├ jippy</a>
+                    <a class="white" target="blank" href="https://www.edx.org/cs50">└ CS50</a>
+                </div>
+
+                <div class="linksbox">
+                    <h3><span class="white">[</span><span class="blue">󱎂&thinsp; ELITE</span><span class="white">]</span></h3>
+                    <!-- Places -->
+                    <a class="white" target="blank" href="https://www.inara.cz/elite/news">├ Inara</a>
+                    <a class="white" target="blank" href="https://inara.cz/elite/market-traderoutes/">├ Market</a>
+                    <a class="white" target="blank" href="https://coriolis.io/">├ Coriolis</a>
+                    <a class="white" target="blank" href="https://community.elitedangerous.com/">├ GalNet</a>
+                    <a class="white" target="blank" href="https://map.canonn.tech">├ CannonED3D</a>
+                    <a class="white" target="blank" href="https://canonn.science">├ Canonn Research</a>
+                    <a class="white" target="blank" href="https://www.edtools.cc">└ E:D Tools</a>
+                </div>
+
+                
+                <div class="linksbox">
+                    <h3><span class="white">[</span><span class="purple">&thinsp; TOOLS</span><span class="white">]</span></h3>
+                    <!-- Tools -->
+                    <a class="white" target="blank" href="https://steamcommunity.com/market/">├ Steam Market</a>
+                    <a class="white" target="blank" href="http://schmittl.github.io/tgajs/">├ TGA Viewer</a>
+                    <a class="white" target="blank" href="https://www.nerdfonts.com/cheat-sheet">├ Nerd Fonts</a>
+                    <a class="white" target="blank" href="https://www.realfavicongenerator.net">├ Favicon Gen</a>
+                    <a class="white" target="blank" href="https://discord.com/developers/applications">├ Discord Dev</a>
+                    <a class="white" target="blank" href="https://www.fast.com">├ Speedtest</a>
+                    <a class="white" target="blank" href="https://mozilla.github.io/webrtc-landing/gum_test.html">└ gUM Test</a>
+                </div>
+                
+                <div class="linksbox">
+                    <h3><span class="white">[</span><span class="green">󰌘&thinsp; DEVICES</span><span class="white">]</span></h3>
+                    <!-- Devices -->
+                    <a class="white" target="blank" onclick="alert('Removed for privacy');"href="">󰑩 gateway</a>
+                    <a class="white" target="blank" onclick="alert('Removed for privacy');"href=""> rubus</a>
+                    <a class="white" target="blank" onclick="alert('Removed for privacy');"href=""> spacewar</a>
+                    <a class="white" target="blank" onclick="alert('Removed for privacy');"href=""> fajita</a>
+                </div>
+            </div>
+            <footer>
+                <span id="date"></span>
+                <span id="temp"></span>
+            </footer>
+        </div>
+    </body>
+</html>
