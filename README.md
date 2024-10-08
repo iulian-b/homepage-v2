@@ -4,4 +4,4 @@ Personal HTML/CSS/JS Homepage
 
 Preview:
 
-![](img/demo.png)
+![](img/demo.PNG)
